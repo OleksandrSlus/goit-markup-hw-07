@@ -185,7 +185,7 @@ button {
   align-items: center;
   transition: background-color var(--transition-efect);
 }
-.modal-close:is(:focus, :hover) {
+.mobile-close:is(:focus, :hover) {
   background-color: var(--hovercolor-color);
 }
 .mobile-ul {
