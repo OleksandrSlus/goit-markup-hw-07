@@ -1,0 +1,36 @@
+/* 480+++ */
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/* ---767 */
+@media screen and (max-width: 767px) {
+  .header-ul {
+    display: none;
+  }
+  .adress-ul {
+    display: none;
+  }
+  .header-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  }
+  .mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+
+  }
+  .mobile-menu-open-icon {
+    stroke: rgba(46, 47, 66, 1);
+    transition: stroke var(--transition-efect);
+  }
+}
+
