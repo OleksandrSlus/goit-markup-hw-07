@@ -1,7 +1,64 @@
+/* 1200+++ */
 @media screen and (min-width: 1200px) {
   .container {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .adress-ul {
+    display: flex;
+  }
+  .heading {
+    max-width: 500px;
+    margin-bottom: 48px;
+  }
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/desktop-bg.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and(min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/desktop-bg@2x.jpg);
+    }
+  }
+  .advantages-item {
+    width: 264px;
+  }
+  .headline {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .future {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .people-ul {
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .div-email {
+    margin-left: 80px;
+  }
+}
+/* ---1200 */
+@media screen and (max-width: 1200px) {
+  .advantages-box {
+    display: none;
+  }
+  .about {
+    display: none;
   }
 }

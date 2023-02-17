@@ -5,7 +5,11 @@
     margin-left: auto;
     margin-right: auto;
   }
-
+}
+@media screen and (max-width: 420px) {
+  .mobile-tel {
+    font-size: 20px;
+  }
 }
 
 /* ---767 */
@@ -17,20 +21,32 @@
     display: none;
   }
   .header-container {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
   }
   .mobile-menu-open-btn {
     background-color: transparent;
     border: none;
     padding: 0;
     line-height: 0;
-
   }
   .mobile-menu-open-icon {
     stroke: rgba(46, 47, 66, 1);
     transition: stroke var(--transition-efect);
   }
+  .advantages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    padding: 0px;
+    gap: 72px;
+  }
+  .team > .container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 72px;
+  }
 }
-
