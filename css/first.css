@@ -158,11 +158,12 @@ button {
   left: 0;
   z-index: 1000;
   background-color: #fff;
+  transform: translateY(100%);
 }
 .mobile-menu.is-open {
-  opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transform: translateX(0);
 }
 .mobile-menu-container {
   position: relative;
@@ -306,7 +307,7 @@ button {
 .headline {
   margin-bottom: 8px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--centrocolor-color);
@@ -391,8 +392,9 @@ button {
 .soc-link:is(:focus, :hover) {
   background-color: var(--hovercolor-color);
 }
-/*-----------------section4---------*/
-.customers-title {
+/*-----------------customers---------*/
+.customers {
+  padding-bottom: 96px;
   padding-top: 96px;
 }
 .customers-box {
@@ -427,7 +429,6 @@ button {
   column-gap: 16px;
   row-gap: 72px;
   list-style-type: none;
-  padding-bottom: 96px;
 }
 /*----------------footer-----------*/
 .footer {
@@ -446,7 +447,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--grayday-color);
   text-align: center;
-  margin-bottom: 52px;
 }
 .footer-logotup {
   font-family: "Raleway";

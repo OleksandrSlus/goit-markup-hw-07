@@ -1,17 +1,22 @@
-/* 480+++ */
-@media screen and (min-width: 480px) {
-  .container {
-    width: 428px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
+/* ---420 */
 @media screen and (max-width: 420px) {
   .mobile-tel {
     font-size: 20px;
   }
+  .customers-box {
+    width: 140px;
+    height: 80px;
+  }
+  .customers-list {
+    flex-wrap: wrap;
+    column-gap: 10px;
+  }
+  .modal {
+    max-width: 100%;
+    padding-left: auto;
+    padding-right: auto;
+  }
 }
-
 /* ---767 */
 @media screen and (max-width: 767px) {
   .header-ul {
@@ -45,8 +50,8 @@
   }
   .team > .container {
     display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 72px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 72px;
   }
 }
