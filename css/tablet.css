@@ -81,21 +81,12 @@
     width: 264px;
   }
 }
-/* ---768 */
-@media screen and (max-width: 768px) {
-  .future {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
-}
 @media (min-width: 768px) and (max-width: 1200px) {
   .advantages-list {
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
-    padding-top: 96px;
-    padding-bottom: 96px;
   }
   .advantages-item {
     flex-basis: calc((100% - 24px) / 2);

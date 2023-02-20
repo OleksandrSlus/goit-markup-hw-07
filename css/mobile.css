@@ -14,6 +14,9 @@
   .modal {
     max-width: 100%;
   }
+  .title-form {
+    font-size: 12px;
+  }
 }
 /* ---767 */
 @media screen and (max-width: 767px) {
@@ -51,5 +54,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 72px;
+  }
+  .title-soc {
+    margin-top: 72px;
+    margin-bottom: 72px;
   }
 }

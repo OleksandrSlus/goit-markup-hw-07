@@ -455,10 +455,10 @@ button {
   text-transform: uppercase;
   text-align: center;
 }
+
 .title-media {
   color: var(--fonokolor-color);
   text-align: center;
-  margin-top: 72px;
 }
 
 .soc-ul-footer {

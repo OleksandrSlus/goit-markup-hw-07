@@ -62,4 +62,11 @@
   .about {
     display: none;
   }
+  .future {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .advantages-item > .headline {
+    font-size: 36px;
+  }
 }
