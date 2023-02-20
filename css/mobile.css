@@ -18,8 +18,14 @@
     font-size: 12px;
   }
 }
+@media (min-width: 420px) and (max-width: 767px) {
+  .container {
+    width: 428px;
+  }
+}
 /* ---767 */
 @media screen and (max-width: 767px) {
+
   .header-ul {
     display: none;
   }
