@@ -80,6 +80,20 @@
   .footer-input {
     width: 264px;
   }
+  .current {
+    position: relative;
+    color: var(--hovercolor-color);
+  }
+  .current::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    bottom: -28px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: var(--btncolor-color);
+  }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .advantages-list {
@@ -100,5 +114,9 @@
   .header {
     padding-top: 16px;
     padding-bottom: 17px;
+  }
+  .content-ul {
+    column-gap: 16px;
+    row-gap: 24px;
   }
 }

@@ -12,7 +12,7 @@
     column-gap: 10px;
   }
   .modal {
-    max-width: 100%;
+    width: 95%;
   }
   .title-form {
     font-size: 12px;
@@ -22,10 +22,12 @@
   .container {
     width: 428px;
   }
+  .modal {
+    width: 392px;
+  }
 }
 /* ---767 */
 @media screen and (max-width: 767px) {
-
   .header-ul {
     display: none;
   }
@@ -64,5 +66,8 @@
   .title-soc {
     margin-top: 72px;
     margin-bottom: 72px;
+  }
+  .btn-ul {
+    flex-wrap: wrap;
   }
 }

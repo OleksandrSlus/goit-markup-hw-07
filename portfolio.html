@@ -15,7 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/first.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
   <body>
     <header class="header">
@@ -26,15 +29,15 @@
           >
           <ul class="header-ul">
             <li class="header-li">
-              <a class="header-link" href="./index.html">Studio</a>
+              <a href="./index.html" class="header-link">Studio</a>
             </li>
             <li class="header-li">
-              <a class="header-link current" href="./portfolio.html"
+              <a href="./portfolio.html" class="header-link current"
                 >Portfolio</a
               >
             </li>
             <li class="header-li">
-              <a class="header-link" href="">Contacts</a>
+              <a href="" class="header-link">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -42,20 +45,93 @@
           <ul class="adress-ul">
             <li>
               <a
+                class="adress"
                 href="mailto:info@devstudio.com"
                 target="_blank"
                 rel="noreferrer noopener nofollow"
-                class="header-email"
-                >info@devstudio.com</a
-              >
+                >info@devstudio.com
+              </a>
             </li>
             <li>
-              <a href="tel:+110001111111" class="header-tel"
-                >+11 (000) 111-11-11</a
-              >
+              <a class="adress" href="tel:+110001111111"
+                >+11 (000) 111-11-11
+              </a>
             </li>
           </ul>
         </address>
+        <div class="mobile-menu is-hidden" data-menu>
+          <div class="mobile-menu-container">
+            <button class="modal-close" type="button" data-menu-close>
+              <svg class="close-icon" width="8" height="8">
+                <use href="./images/icons.svg.svg#icon-close-black"></use>
+              </svg>
+            </button>
+            <ul class="mobile-ul">
+              <li class="mobile-li">
+                <a href="./index.html" class="mobile-link">Studio</a>
+              </li>
+              <li class="mobile-li">
+                <a href="./portfolio.html" class="mobile-link current"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-li">
+                <a href="" class="mobile-link">Contacts</a>
+              </li>
+            </ul>
+            <ul class="mobile-contact-ul">
+              <li class="mobile-contact-li">
+                <a class="mobile-tel" href="tel:+110001111111"
+                  >+11 (000) 111-11-11
+                </a>
+              </li>
+              <li>
+                <a
+                  class="mobil-email"
+                  href="mailto:info@devstudio.com"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                  >info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mobile-soc-ul">
+              <li class="soc-item">
+                <a href="" class="soc-link">
+                  <svg class="soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-item">
+                <a href="" class="soc-link">
+                  <svg class="soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-item">
+                <a href="" class="soc-link">
+                  <svg class="soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-item">
+                <a href="" class="soc-link">
+                  <svg class="soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="mobile-menu-open-btn" type="button" data-menu-open>
+          <svg class="mobile-menu-open-icon" width="28" height="18">
+            <use href="./images/icons.svg.svg#icon-Vector-Stroke"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -75,6 +151,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic1.jpg"
+                    srcset="./images/1banking-interface@2x.jpg 2x"
                     alt="apps"
                     width="360px"
                     height="300px"
@@ -96,6 +173,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic2.jpg"
+                    srcset="./images/2qr-payment@2x.jpg 2x"
                     alt="qr"
                     width="360px"
                     height="300px"
@@ -113,6 +191,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic3.jpg"
+                    srcset="./images/3meditaion-app@2x.jpg 2x"
                     alt="nout"
                     width="360px"
                     height="300px"
@@ -130,6 +209,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic4.jpg"
+                    srcset="./images/4driver-place@2x.jpg 2x"
                     alt="auto"
                     width="360px"
                     height="300px"
@@ -147,6 +227,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic5.jpg"
+                    srcset="./images/5fiction-moon@2x.jpg 2x"
                     alt="moon"
                     width="360px"
                     height="300px"
@@ -164,6 +245,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic6.jpg"
+                    srcset="./images/6girl-phone@2x.jpg 2x"
                     alt="girl"
                     width="360px"
                     height="300px"
@@ -181,6 +263,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic7.jpg"
+                    srcset="./images/7instagram-stories@2x.jpg 2x"
                     alt="stories"
                     width="360px"
                     height="300px"
@@ -198,6 +281,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic8.jpg"
+                    srcset="./images/8organic-food@2x.jpg 2x"
                     alt="food"
                     width="360px"
                     height="300px"
@@ -215,6 +299,7 @@
                 <div class="div-img-text">
                   <img
                     src="./images/pic9.jpg"
+                    srcset="./images/9cappuccino@2x.jpg 2x"
                     alt="coffe"
                     width="360px"
                     height="300px"
@@ -296,5 +381,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
